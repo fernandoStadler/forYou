@@ -1,4 +1,8 @@
 @media(max-width:970px) {
+    
+    .btn_start {
+        display: block;
+    }
     .content-container {
         flex-direction: column;
         padding: 30px 0;
@@ -8,4 +12,32 @@
     .content-3 {
         width: 100%;
     }
+
+    .btn-success  {
+        display: hidden;
+        background-color: blueviolet;
+        min-width: 150px;
+        height: 40px;
+        border: none;
+        font-size: 0.5em;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Fjalla One', sans-serif;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    .btn-failure  {
+        display: hidden;
+        background-color: rgb(202, 56, 56);
+        border: none;
+        min-width: 150px;
+        height: 40px;
+        color: white;
+        font-size: 0.5em;
+        border-radius: 10px;
+        font-family: 'Fjalla One', sans-serif;
+        cursor: pointer;
+        transition: all 1s;
+    }
+
 }

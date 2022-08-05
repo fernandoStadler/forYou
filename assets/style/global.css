@@ -17,3 +17,49 @@ body {
 .hidden{
     display: none;
 }
+
+.start_mobile{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.btn_start{
+    background-color: #790879;
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    border:none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    
+}
+
+.failure_style{
+    display: block;
+    background-color: rgb(202, 56, 56);
+    border: none;
+    min-width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 0.5em;
+    border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.success_style{
+    display: block;
+    background-color: blueviolet;
+    min-width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 0.5em;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    cursor: pointer;
+    transition: all 1s;
+}

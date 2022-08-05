@@ -1,3 +1,17 @@
+btn_Start.addEventListener('click', () =>{
+    setTimeout(()=>{
+        content_1.classList.add("show_content");
+    }, 1000)
+    setTimeout(()=>{
+        content_2.classList.add("show_content");
+    }, 2000)
+    setTimeout(()=>{
+        btnPrometo.style.display = "block";
+        btnNao_Prometo.style.display = "block";
+        content_3.classList.add("show_content");
+    }, 3000)
+});
+
 btnNao_Prometo.addEventListener('click',()=>{
     modal.classList.remove('hidden');
     modal.classList.add('show');
