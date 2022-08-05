@@ -1,0 +1,24 @@
+.modal{
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    z-index: 2;
+}
+
+.modal p{
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(202, 56, 56);
+}
+
+.btn-modal{
+    font-family: 'Fjalla One', sans-serif;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
